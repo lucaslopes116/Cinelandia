@@ -1,12 +1,12 @@
-import { useNavigate } from "react-router-dom";
+import { useNavigate } from 'react-router-dom'
 
-export function Casa(){
-  const navigate = useNavigate();
+export function Casa() {
+  const navigate = useNavigate()
 
-  function  handleNavigateToHome(){
+  function handleNavigateToHome() {
     navigate('/teste')
   }
-  return(
+  return (
     <div>
       <h1>Casa</h1>
       <button onClick={handleNavigateToHome}>Navegar para teste</button>

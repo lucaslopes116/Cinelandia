@@ -10,7 +10,7 @@ export function Dashboard(){
       height="100vh"
       direction="column"
     >
-        <Button onClick={() => toggleColorMode()} size="lg">{colorMode}</Button>
+      <Button onClick={() => toggleColorMode()} size="lg">{colorMode}</Button>
     </Flex>
   )
 }
