@@ -1,0 +1,13 @@
+* {
+  font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+
+a {
+  cursor: pointer;
+  margin-right: 25px;
+  font-size: 25px;
+}
+
+a p {
+  color:#e50914;
+}

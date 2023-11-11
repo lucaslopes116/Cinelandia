@@ -1,16 +1,10 @@
-import { Button, Flex, useColorMode  } from "@chakra-ui/react";
+import { Header } from '../../components/Header/Header'
 
-export function Dashboard(){
-  const { colorMode, toggleColorMode } = useColorMode();
-
-  return(
-    <Flex
-      align="center"
-      justify="center"
-      height="100vh"
-      direction="column"
-    >
-      <Button onClick={() => toggleColorMode()} size="lg">{colorMode}</Button>
-    </Flex>
+export function Dashboard() {
+  return (
+    <div style={{ height: '100vh' }}>
+      <Header />
+      <div></div>
+    </div>
   )
 }
