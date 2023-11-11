@@ -2,7 +2,7 @@ import { Header } from '../../components/Header/Header'
 
 export function Dashboard() {
   return (
-    <div style={{ height: '100vh' }}>
+    <div className="h-screen">
       <Header />
       <div></div>
     </div>
