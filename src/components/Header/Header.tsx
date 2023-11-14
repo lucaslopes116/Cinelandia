@@ -3,37 +3,17 @@ import './style.css'
 
 export function Header() {
   return (
-    <div
-      style={{
-        display: 'flex',
-        flexDirection: 'row',
-        position: 'fixed',
-        width: '100%',
-        height: '68px',
-        paddingLeft: '52px',
-        paddingRight: '52px',
-        zIndex: 2,
-      }}
-    >
-      <div style={{ alignItems: 'center', flex: 1 }}>
+    <div className="fixed z-20 flex h-[68px] w-full items-center bg-black px-14 text-white">
+      <div className="flex flex-1 items-center">
         <a href="/">
           <p>Cinelândia</p>
         </a>
-        <ul style={{ display: 'flex', gap: '14px', listStyleType: 'none' }}>
-          <li
-            style={{
-              cursor: 'pointer',
-              fontSize: '14px',
-              fontWeight: 500,
-              marginLeft: '30px',
-            }}
-          >
-            Início
-          </li>
-          <li style={{ cursor: 'pointer', fontSize: '14px' }}>Séries</li>
-          <li style={{ cursor: 'pointer', fontSize: '14px' }}>Filmes</li>
-          <li style={{ cursor: 'pointer', fontSize: '14px' }}>Bombando</li>
-          <li style={{ cursor: 'pointer', fontSize: '14px' }}>Minha lista</li>
+        <ul className="flex gap-[14px]">
+          <li className="ml-5 cursor-pointer text-sm font-bold">Início</li>
+          <li className="cursor-pointer text-sm">Séries</li>
+          <li className="cursor-pointer text-sm">Filmes</li>
+          <li className="cursor-pointer text-sm">Bombando</li>
+          <li className="cursor-pointer text-sm">Minha lista</li>
         </ul>
       </div>
 
